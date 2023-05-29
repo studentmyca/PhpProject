@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+body{
+    background: #c2e59c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c2e59c, #64b3f4); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c2e59c, #64b3f4); 
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}.navbar{
+    width: 100%;
+    height: 60px;
+    background: #2980b9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #010000;
+}
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.menu li.active a {
+    background-color: #555;
+  }
+  
+.menu ul li a:hover{
+    border-bottom: 4px solid #000;
+    transition: 0.6s;
+}
+.container{
+    width: 80%;
+    margin:50px auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 50px;
+    background:rgb(13, 124, 228);
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:rgb(13, 124, 228);
+}
+button{
+    background: rgb(13, 124, 228);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow:0px 5px 15px 0px rgb(13, 124, 228);
+}
+.contact-left h3{
+    color:rgb(13, 124, 228);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+iframe {
+    width: 80%;
+    width: 400px;
+    height: 250px;
+    border: 0;
+    margin-bottom: 10px;
+  }
+  @media screen and  (max-width: 940px) {
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 85%;
+        display: flex;
+        margin: 20px 0px;
+    }
+    
+}

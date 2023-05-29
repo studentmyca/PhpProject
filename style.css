@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    width: 100%;
+    height: 60px;
+    background: #2980b9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #010000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu li.active a {
+    background-color: #555;
+  }
+  
+  /* Content styles */
+  .content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heading h1 {
+    font-size: 90px;
+    color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .heading p {
+    font-size: 16px;
+    color: #fcf5f5;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .heading button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0058fb;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .heading.button:hover{
+    background-color: #ff9900;
+    transition: 0.6s;
+}
+  
